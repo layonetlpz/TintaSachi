@@ -5,7 +5,7 @@ Experiencia digital editorial y estudio académico de marketing emocional con va
 ## Dimensiones de la experiencia
 
 - **LEE:** Literatura y manga curados con separador editorial.
-- **ESCUCHA:** Canción original *«En mi cajita cabe otro lugar»* integrada.
+- **ESCUCHA:** Pista musical oficial *«Somewhere in Between»* integrada con acceso mediante código QR.
 - **COLECCIONA:** Pines esmaltados, separadores *seigaiha*, stickers y postales de edición.
 - **REGALA:** Empaque autoarmable **FEFCO 0427 (26 × 20 × 9 cm)** en índigo (`#1F1575`) y naranja tinta (`#E56020`) con tarjeta dedicatoria personalizable y sello **幸**.
 

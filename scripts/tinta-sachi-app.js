@@ -248,14 +248,14 @@
     const jumpListenHero = document.getElementById("heroPlaySongBtn");
 
     if (audio) {
-      audio.src = assetUrl("assets/Cancion_Oficial_TintaSachi.mp4");
+      audio.src = assetUrl("assets/Somewhere_In_Between_TintaSachi.mp3");
 
       function syncAudioUI() {
         const playing = !audio.paused && !audio.ended;
         if (vinyl) vinyl.classList.toggle("is-playing", playing);
         if (eqBars) eqBars.classList.toggle("is-playing", playing);
         if (playBtn) {
-          playBtn.textContent = playing ? "⏸ Pausar canción original" : "▶ Reproducir «En mi cajita cabe otro lugar»";
+          playBtn.textContent = playing ? "⏸ Pausar «Somewhere in Between»" : "▶ Reproducir «Somewhere in Between»";
         }
         if (dock) dock.classList.toggle("visible", playing);
         if (dockToggle) dockToggle.textContent = playing ? "⏸" : "▶";
@@ -467,10 +467,10 @@
     // Curva emocional interactiva en Customer Journey
     const journeySteps = [
       { step: "1. Rutina", sub: "nocturna", stage: "ANTES", y: 156, emo: "Agobio ansioso y fatiga de pantalla", detail: "Juliana termina parciales y entregas; el scroll en redes sociales no le devuelve descanso afectivo." },
-      { step: "2. Pain Point", sub: "duda de gasto", stage: "ANTES", y: 170, emo: "Duda presupuestal ante compra", detail: "Punto crítico de dolor: teme gastar su presupuesto limitado en otro artículo superficial o costoso." },
-      { step: "3. Hallazgo", sub: "en redes", stage: "ANTES", y: 116, emo: "Curiosidad cautelosa", detail: "Descubre un unboxing en @tinta_sachi con reseñas cercanas de estudiantes en Montería y precios claros." },
+      { step: "2. Pain Point", sub: "evaluación valor", stage: "ANTES", y: 170, emo: "Cautela ante compra ($80.000–$100.000 COP)", detail: "Punto crítico previo: al ubicarse entre $80.000 y $100.000 COP, evalúa con criterio que la caja justifique su inversión frente a artículos sueltos." },
+      { step: "3. Hallazgo", sub: "en redes", stage: "ANTES", y: 116, emo: "Curiosidad cautelosa", detail: "Descubre un unboxing en @tinta_sachi con reseñas cercanas de estudiantes en Montería y desglose claro de piezas." },
       { step: "4. Recepción", sub: "de la caja 幸", stage: "DURANTE", y: 72, emo: "Ilusión expectante", detail: "Recibe la caja rígida FEFCO 0427 en índigo (#1F1575) con el sello naranja 幸 intacto." },
-      { step: "5. Peak Moment", sub: "unboxing + QR", stage: "DURANTE", y: 28, emo: "Sorpresa agradable (8,75) y Fascinación (8,13)", detail: "Momento cumbre: rompe el sello 幸, despliega el papel seda seigaiha y escucha «En mi cajita cabe otro lugar»." },
+      { step: "5. Peak Moment", sub: "unboxing + QR", stage: "DURANTE", y: 28, emo: "Sorpresa agradable (8,75) y Fascinación (8,13)", detail: "Momento cumbre: rompe el sello 幸, despliega el papel seda seigaiha y escucha «Somewhere in Between»." },
       { step: "6. Lectura", sub: "e inmersión", stage: "DURANTE", y: 54, emo: "Serenidad e Inspiración (8,50)", detail: "Lee su obra acompañada por el separador con borla y explora el pin esmaltado y las postales." },
       { step: "7. Comunidad", sub: "y regalo", stage: "DESPUÉS", y: 44, emo: "Orgullo (8,25) y Nostalgia (7,00)", detail: "Lleva el pin en su mochila, conserva su cápsula de recuerdo y recomienda Tinta-Sachi como obsequio." }
     ];

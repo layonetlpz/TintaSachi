@@ -7,8 +7,8 @@
   <meta name="description" content="Tinta-Sachi — Las historias también se viven. Experiencia editorial multisensorial coleccionable, estudio de marketing emocional y evaluación empírica PREMO." />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Tinta-Sachi · Las historias también se viven" />
-  <meta property="og:description" content="Experiencia editorial multisensorial que une literatura, canción original, objetos coleccionables y conexión emocional." />
-  <meta property="og:image" content="/assets/Poster_Ilustrado_TintaSachi.jpeg" />
+  <meta property="og:description" content="Experiencia editorial multisensorial que une literatura, música, objetos coleccionables y conexión emocional." />
+  <meta property="og:image" content="/assets/Afiche_Oficial_Juliana_TintaSachi.jpeg" />
   <title>Tinta-Sachi · Las historias también se viven</title>
   <link rel="icon" type="image/png" href="./assets/Kanji_Sachi_Pincel.png" />
   <link rel="stylesheet" href="./styles/tinta-sachi.css" />
@@ -95,7 +95,7 @@
           <div class="hero-actions">
             <a href="#producto" class="btn btn-primary">Descubrir la caja 幸</a>
             <button type="button" class="btn btn-ghost-light" id="heroPlaySongBtn">
-              ♫ Escuchar «En mi cajita cabe otro lugar»
+              ♫ Escuchar «Somewhere in Between»
             </button>
           </div>
 
@@ -346,9 +346,9 @@
                   <span id="leeSpec"></span>
                 </div>
               </div>
-              <figure style="margin:0;background:#150F3D;padding:16px;border-radius:16px;text-align:center;color:#fff;">
-                <img id="leeArtwork" src="./assets/Poster_Ilustrado_TintaSachi.jpeg" alt="Ilustración de edición Tinta-Sachi" style="max-height:330px;margin:0 auto;border-radius:10px;object-fit:contain;" loading="lazy" />
-                <figcaption id="leeArtworkCaption" style="font-size:0.78rem;color:#FFC09F;margin-top:10px;"></figcaption>
+              <figure class="lee-poster-frame">
+                <img id="leeArtwork" src="./assets/Afiche_Oficial_Juliana_TintaSachi.jpeg" alt="Pieza gráfica oficial Tinta-Sachi con Juliana abriendo su caja coleccionable" width="787" height="967" loading="eager" />
+                <figcaption id="leeArtworkCaption">Pieza gráfica oficial Tinta-Sachi: Juliana viviendo la apertura de su caja coleccionable.</figcaption>
               </figure>
             </div>
           </div>
@@ -371,28 +371,31 @@
               </div>
 
               <div>
-                <span class="eyebrow">Banda Sonora Original de Marca</span>
-                <h3 class="section-subtitle" style="margin-bottom:8px;">«En mi cajita cabe otro lugar»</h3>
+                <span class="eyebrow">Pista Musical Oficial · Experiencia Sonora</span>
+                <h3 class="section-subtitle" style="margin-bottom:8px;">«Somewhere in Between»</h3>
                 <p style="color:rgba(250,247,255,0.85);margin:0 0 14px;max-width:64ch;">
-                  Dentro de cada caja FEFCO 0427 reposa una postal ilustrada (10 × 15 cm) con código QR que conecta la lectura física con la composición musical original de Tinta-Sachi, envolviendo al lector en una atmósfera íntima que bloquea el ruido exterior.
+                  Dentro de cada caja FEFCO 0427 reposa una tarjeta ilustrada (10 × 15 cm) con código QR que conecta la lectura y el audiovisual de marca con <strong>«Somewhere in Between»</strong>, creando una atmósfera introspectiva que acompaña la pausa nocturna lejos del ruido exterior.
                 </p>
 
                 <div class="audio-controls-bar">
-                  <button type="button" class="btn btn-primary" id="customPlayBtn">▶ Reproducir «En mi cajita cabe otro lugar»</button>
+                  <button type="button" class="btn btn-primary" id="customPlayBtn">▶ Reproducir «Somewhere in Between»</button>
                 </div>
 
-                <audio id="brandAudio" controls preload="metadata" style="width:100%;max-width:540px;border-radius:10px;margin-bottom:8px;" aria-label="Reproductor de la canción oficial En mi cajita cabe otro lugar"></audio>
+                <audio id="brandAudio" controls preload="metadata" src="./assets/Somewhere_In_Between_TintaSachi.mp3" style="width:100%;max-width:540px;border-radius:10px;margin-bottom:8px;" aria-label="Reproductor de la canción oficial Somewhere in Between"></audio>
 
                 <div class="lyrics-verses">
                   <div class="verse-card">
-                    <strong style="color:#FFB48E;display:block;font-size:0.76rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Estrofa · El ruido afuera</strong>
-                    <em>«La ciudad corre y yo detrás, coches, mensajes, otra señal; notas que pesan, vidas perfectas y mi futuro haciendo preguntas… Pero en mi cuarto puedo parar, abro una historia y vuelvo a respirar.»</em>
+                    <strong style="color:#FFB48E;display:block;font-size:0.76rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Verse 1 · El trayecto cotidiano</strong>
+                    <em>«The bus rides home, the fading light / Another day, another night / I watch the city passing by / Like little scenes from someone's life… I say I'm fine, I'm doing great / Still counting dreams I haven't chased.»</em>
                   </div>
                   <div class="verse-card">
-                    <strong style="color:#FFB48E;display:block;font-size:0.76rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Coro · El refugio interior</strong>
-                    <em>«En mi cajita cabe otro lugar, manga y novelas para despegar; un héroe canta junto a mi canción y el mundo espera afuera un rato. Me llevo mis mundos cerca de mí, pequeñas cosas que me hacen feliz.»</em>
+                    <strong style="color:#FFB48E;display:block;font-size:0.76rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Chorus · El refugio interior</strong>
+                    <em>«Can we stay somewhere in between? / Who I am and who I'll be / All these dreams inside my head / All the words I never said… I'm not lost, I'm just unseen / Somewhere, somewhere in between.»</em>
                   </div>
                 </div>
+                <p style="margin:12px 0 0;font-size:0.81rem;color:rgba(250,247,255,0.72);">
+                  Conexión narrativa: retrata el regreso a casa al caer la tarde y el deseo de habitar un refugio propio entre las exigencias del presente y los sueños personales.
+                </p>
               </div>
             </div>
           </div>
@@ -489,7 +492,7 @@
         <div class="persona-grid reveal">
           <aside class="persona-portrait-card">
             <div class="persona-img-wrap">
-              <img src="./assets/Juliana_Unboxing_Cutout.png" alt="Representación de Juliana abriendo su caja Tinta-Sachi en su escritorio" loading="lazy" />
+              <img src="./assets/Juliana_Foto_BuyerPersona.jpg" alt="Retrato del Buyer Persona estratégico Juliana, estudiante universitaria de 20 años en Montería" width="474" height="534" loading="lazy" />
             </div>
             <span class="edition-badge">Buyer Persona Estratégico</span>
             <h3 style="font-family:var(--font-display);font-size:1.85rem;margin:4px 0 6px;font-weight:400;">Juliana, 20 años</h3>
@@ -502,8 +505,8 @@
                 <strong>Estratos 2, 3 y 4</strong>
               </div>
               <div class="persona-meta-item">
-                <small>Presupuesto de referencia</small>
-                <strong>$15.000–$60.000 COP</strong>
+                <small>Valor caja / Inversión</small>
+                <strong>$80.000–$100.000 COP</strong>
               </div>
               <div class="persona-meta-item">
                 <small>Ecosistema digital</small>
@@ -517,21 +520,21 @@
           </aside>
 
           <div class="editorial-card prose">
-            <h3 class="section-subtitle">Insight emocional y contradicción íntima</h3>
+            <h3 class="section-subtitle">Insight emocional y decisión de compra selectiva</h3>
             <p>
               Juliana divide su rutina entre clases, transporte urbano, entregas grupales y decenas de notificaciones pendientes. Hacia su entorno proyecta seguridad y dinamismo, pero al llegar la noche experimenta <strong>sobrecarga ansiosa acompañada de un anhelo profundo de refugio tangible</strong>.
             </p>
             <p>
-              Aunque recurre al <em>scroll</em> en redes sociales, plataformas de <em>streaming</em> o compras rápidas en línea para despejarse, percibe que los estímulos efímeros de pantalla no la recargan emocionalmente y que los artículos locales sueltos (mugs de $15.000–$25.000 COP o camisetas de $35.000 COP) carecen de narrativa y cuidado curatorial.
+              Aunque evita malgastar en artículos locales sueltos sin identidad (como mugs genéricos de $15.000–$25.000 COP o camisetas aisladas de $35.000 COP que no construyen experiencia), <strong>planifica y destina entre $80.000 y $110.000 COP</strong> para autorregalos de cierre de semestre o regalos especiales cuando una edición coleccionable completa ($80.000–$100.000 COP) reúne obra impresa, música, piezas exclusivas y empaque reutilizable.
             </p>
             <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:20px;">
               <div style="padding:16px;border-radius:12px;background:var(--paper);border-left:4px solid var(--indigo);">
                 <strong style="color:var(--indigo);display:block;font-size:0.88rem;margin-bottom:4px;">Motivación profunda</strong>
-                <span style="font-size:0.87rem;">Habitar un espacio propio que valide su sensibilidad estética, lectora y cultural sin descuidar su presupuesto estudiantil.</span>
+                <span style="font-size:0.87rem;">Habitar un espacio propio que valide su sensibilidad estética, lectora y cultural invirtiendo en experiencias que realmente perduren.</span>
               </div>
               <div style="padding:16px;border-radius:12px;background:var(--naranja-tint);border-left:4px solid var(--naranja);">
                 <strong style="color:#B6420B;display:block;font-size:0.88rem;margin-bottom:4px;">Sustitutos actuales superados</strong>
-                <span style="font-size:0.87rem;">Ocio digital pasivo (Netflix, TikTok), libros digitales sin ritual táctil y mercancía genérica sin identidad de marca.</span>
+                <span style="font-size:0.87rem;">Ocio digital pasivo (Netflix, TikTok), libros digitales sin ritual táctil y mercancía suelta carente de curaduría emocional.</span>
               </div>
             </div>
           </div>
@@ -625,7 +628,7 @@
               El instrumento <strong>PrEmo (Product Emotion Measurement)</strong>, formulado por Pieter Desmet y colaboradores (Desmet, 2003b, 2018; Laurans &amp; Desmet, 2017), mide respuestas afectivas inmediatas frente a productos mediante catorce emociones discretas representadas visualmente: <strong>siete positivas</strong> (Deseo, Satisfacción, Fascinación, Sorpresa agradable, Orgullo, Inspiración y Nostalgia) y <strong>siete negativas</strong> (Asco, Aburrimiento, Tristeza, Frustración, Miedo, Vergüenza e Indignación).
             </p>
             <p>
-              Su aplicación evita que el participante filtre racionalmente su vivencia. En el procedimiento ejecutado, cada evaluador exploró de manera autónoma durante 2 a 3 minutos la propuesta física-digital de Tinta-Sachi —incluyendo empaque, narrativa y escucha con audífonos de <em>«En mi cajita cabe otro lugar»</em>— sin recibir explicaciones previas que indujeran la respuesta.
+              Su aplicación evita que el participante filtre racionalmente su vivencia. En el procedimiento ejecutado, cada evaluador exploró de manera autónoma durante 2 a 3 minutos la propuesta física-digital de Tinta-Sachi —incluyendo empaque, narrativa y escucha con audífonos de <em>«Somewhere in Between»</em>— sin recibir explicaciones previas que indujeran la respuesta.
             </p>
           </article>
 
@@ -857,7 +860,7 @@
           <span class="eyebrow">Propuesta de Valor Refinada Post-PREMO</span>
           <h3 class="section-subtitle">Un refugio narrativo multisensorial accesible y memorable</h3>
           <p>
-            <strong>Tinta-Sachi</strong> ofrece a jóvenes lectores y seguidores de universos narrativos en Montería una caja coleccionable de <strong>26 × 20 × 9 cm (FEFCO 0427)</strong> que convierte el descanso nocturno o el acto de obsequiar en una experiencia emocional completa: <strong>LEE</strong> una obra seleccionada, <strong>ESCUCHA</strong> la canción original <em>«En mi cajita cabe otro lugar»</em> mediante código QR, <strong>COLECCIONA</strong> insignias ilustradas en índigo (<code>#1F1575</code>) y naranja (<code>#E56020</code>), y <strong>REGALA</strong> una dedicatoria sellada con el kanji <strong>幸</strong>.
+            <strong>Tinta-Sachi</strong> ofrece a jóvenes lectores y seguidores de universos narrativos en Montería una caja coleccionable de <strong>26 × 20 × 9 cm (FEFCO 0427)</strong>, valorizada en un rango estimado de <strong>$80.000 a $100.000 COP</strong> según edición, que convierte el descanso nocturno o el acto de obsequiar en una experiencia emocional completa: <strong>LEE</strong> una obra seleccionada, <strong>ESCUCHA</strong> la pista oficial <em>«Somewhere in Between»</em> mediante código QR, <strong>COLECCIONA</strong> insignias ilustradas en índigo (<code>#1F1575</code>) y naranja (<code>#E56020</code>), y <strong>REGALA</strong> una dedicatoria sellada con el kanji <strong>幸</strong>.
           </p>
           <p>
             A partir de la evidencia cuantitativa PREMO, la propuesta final incorpora dos optimizaciones concretas: <strong>(1) Cápsula de memoria fechada</strong> en el interior del libro para impulsar la dimensión de <em>Nostalgia</em> (7,00/10) hacia el recuerdo personal duradero, y <strong>(2) Ficha transparente de contenido garantizado más cunas internas protectoras</strong> para reducir la incertidumbre presupuestal y de conservación reflejada en el indicador leve de <em>Miedo</em> (2,00/10).
@@ -921,7 +924,7 @@
             <h3 class="section-subtitle">Recomendaciones</h3>
             <ul style="padding-left:18px;margin:0;display:grid;gap:10px;">
               <li><strong>Ampliación muestral y captura mixta:</strong> Escalar la evaluación PREMO a una muestra de 25 a 35 estudiantes universitarios en Montería segmentados por género literario, integrando entrevistas breves grabadas post-apertura para enriquecer el análisis cualitativo.</li>
-              <li><strong>Arquitectura escalonada de precios:</strong> Estructurar dos niveles comerciales claros (<em>Edición Esencial</em> y <em>Edición Coleccionista</em>) con visualización previa de todas las piezas para eliminar la incertidumbre económica asociada al Miedo leve (2,00/10).</li>
+              <li><strong>Transparencia de valor en el rango de precio ($80.000–$100.000 COP):</strong> Exhibir de forma previa el desglose completo de las piezas incluidas en cada edición coleccionable y ofrecer preventas programadas para respaldar la decisión de compra universitaria y reducir el indicador leve de Miedo (2,00/10).</li>
               <li><strong>Pruebas experimentales A/B del estímulo musical:</strong> Ejecutar un diseño comparativo A/B entre cajas con y sin canción original vía QR para aislar experimentalmente su efecto sobre la Fascinación, la Nostalgia y la disposición a pagar (Xiao et al., 2025).</li>
               <li><strong>Continuidad comunitaria post-compra:</strong> Implementar votaciones abiertas entre lectores para seleccionar los próximos universos literarios y fortalecer la recompra por colección.</li>
             </ul>
@@ -946,7 +949,7 @@
   <div class="floating-audio-dock liquid-glass" id="floatingAudioDock" role="region" aria-label="Reproductor flotante de canción oficial">
     <button type="button" class="dock-toggle-btn" id="dockToggleBtn" aria-label="Pausar o reanudar canción">⏸</button>
     <div style="font-size:0.78rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
-      <strong style="color:#FFB48E;">♫</strong> «En mi cajita cabe otro lugar»
+      <strong style="color:#FFB48E;">♫</strong> «Somewhere in Between»
     </div>
     <button type="button" class="dock-close-btn" id="dockCloseBtn" aria-label="Ocultar reproductor flotante" title="Ocultar barra">✕</button>
   </div>

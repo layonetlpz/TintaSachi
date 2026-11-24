@@ -10,7 +10,8 @@ window.TINTA_SACHI_DATA = {
     fefco: "FEFCO 0427",
     colorIndigo: "#1F1575",
     colorOrange: "#E56020",
-    songTitle: "En mi cajita cabe otro lugar"
+    priceRange: "$80.000 – $100.000 COP",
+    songTitle: "Somewhere in Between"
   },
 
   boxModes: [
@@ -62,30 +63,30 @@ window.TINTA_SACHI_DATA = {
       category: "MANGA & ANIME",
       title: "Edición Shōnen: Espíritu de Travesía",
       quote: "«No importa cuán agitada corra la ciudad afuera: al abrir estas páginas empieza tu propia tripulación.»",
-      synopsis: "Concebida para quienes buscan valentía, energía vital y camaradería tras semanas académicas intensas. Articula un tomo manga curado (referente One Piece) con separador de borla naranja tinta, pin metálico de arco Torii, postal nocturna y acceso QR a la canción oficial.",
+      synopsis: "Concebida para quienes buscan valentía, energía vital y camaradería tras semanas académicas intensas. Articula un tomo manga curado (referente One Piece) con separador de borla naranja tinta, pin metálico de arco Torii, postal nocturna y acceso QR a la canción oficial «Somewhere in Between».",
       physicalSpec: "Tomo manga edición curada + separador en cartulina 350 g laminada mate con borla naranja (#E56020).",
-      img: "assets/Poster_Ilustrado_TintaSachi.jpeg",
-      imgCaption: "Ilustración promocional de la experiencia narrativa Tinta-Sachi."
+      img: "assets/Afiche_Oficial_Juliana_TintaSachi.jpeg",
+      imgCaption: "Pieza gráfica oficial Tinta-Sachi: Juliana viviendo la apertura de su caja coleccionable."
     },
     {
       id: "fantasia",
       category: "FANTASÍA EDITORIAL",
       title: "Edición Nocturna: Cartas bajo la Lluvia",
       quote: "«Las mejores historias se habitan cuando apagas la prisa de la pantalla y enciendes tu propio refugio.»",
-      synopsis: "Inspirada en universos de magia clásica y mundos encantados (referente Harry Potter). Integra novela juvenil ilustrada, separador con ondas seigaiha, set de stickers de flor de cerezo y nubes en vinilo mate, postal de colección y acompañamiento sonoro.",
+      synopsis: "Inspirada en universos de magia clásica y mundos encantados (referente Harry Potter). Integra novela juvenil ilustrada, separador con ondas seigaiha, set de stickers de flor de cerezo y nubes en vinilo mate, postal de colección y acompañamiento sonoro vía QR.",
       physicalSpec: "Obra de narrativa fantástica + separador editorial 350 g + cápsula de memoria fechada.",
       img: "assets/Pieza_Instagram_TintaSachi.png",
-      imgCaption: "Pieza visual de atmósfera nocturna e inmersión literaria Tinta-Sachi."
+      imgCaption: "Pieza promocional de atmósfera nocturna e inmersión literaria Tinta-Sachi."
     },
     {
       id: "cosmos",
       category: "CIENCIA FICCIÓN",
       title: "Edición Órbita: Estrellas de Papel",
       quote: "«Incluso en la habitación más silenciosa cabe una galaxia entera esperando ser descubierta.»",
-      synopsis: "Pensada para lectores curiosos atraídos por el asombro científico y los viajes espaciales (referente Project Hail Mary). Reúne edición literaria seleccionada, pin esmaltado de estrella de cuatro puntas, libreta de notas estelares y tarjeta QR musical.",
+      synopsis: "Pensada para lectores curiosos atraídos por el asombro científico y los viajes espaciales (referente Project Hail Mary). Reúne edición literaria seleccionada, pin esmaltado de estrella de cuatro puntas, libreta de notas estelares y tarjeta QR con «Somewhere in Between».",
       physicalSpec: "Novela de ciencia ficción + separador magnético/borla + postal astronómica numerada.",
-      img: "assets/Juliana_Unboxing_Cutout.png",
-      imgCaption: "Representación conceptual del momento de apertura en escritorio."
+      img: "assets/Edicion_Orbita_Editorial.png",
+      imgCaption: "Lámina tipográfica editorial de la línea Ciencia Ficción Tinta-Sachi."
     }
   ],
 
@@ -165,7 +166,7 @@ window.TINTA_SACHI_DATA = {
       title: "3. Escucha",
       subtitle: "Voces e influencias cercanas",
       items: [
-        "Opiniones determinantes de amigas cercanas y familiares antes de realizar una compra.",
+        "Opiniones determinantes de amigas cercanas y familiares antes de realizar una compra importante.",
         "Conversaciones constantes sobre parciales, calificaciones y comparaciones académicas.",
         "Música pop anglo (Taylor Swift, Olivia Rodrigo, Sabrina Carpenter, The Weeknd) y vallenato (Kaleth Morales).",
         "Pódcast introspectivos y emocionales (Farid Dieck, MIKA, Online Mami) buscando perspectiva.",
@@ -178,7 +179,7 @@ window.TINTA_SACHI_DATA = {
       items: [
         "En público proyecta seguridad y extroversión; en privado procesa ansiedad y sobrecarga.",
         "Comparte salidas mensuales sencillas (pizza o mote de queso) con su círculo de amigos.",
-        "Realiza compras en línea (Shein, Temu) cuidando un presupuesto estudiantil ajustado.",
+        "Cuida sus gastos de rutina en línea, pero ahorra y planifica compras especiales de mayor valor ($80.000–$110.000 COP) cuando se trata de libros, ediciones coleccionables o regalos significativos.",
         "Personaliza sus atuendos y útiles, intentando sostener hábitos de organización personal.",
         "Expresa su entusiasmo por conocer la cultura asiática y coleccionar objetos con identidad."
       ]
@@ -188,7 +189,7 @@ window.TINTA_SACHI_DATA = {
       subtitle: "Bloqueos y frustraciones reales",
       items: [
         "Sensación de dar todo su esfuerzo diario y sentir que aún no alcanza todas las metas.",
-        "Escasez de tiempo libre reparador combinada con presupuesto limitado ($15.000–$60.000 COP ref.).",
+        "Escasez de tiempo libre reparador y necesidad de que una compra planeada ($80.000–$100.000 COP) justifique con creces cada peso invertido.",
         "Fatiga tras el ocio pasivo en pantallas (scroll interminable) que no produce descanso afectivo.",
         "Incertidumbre frente al desempeño profesional futuro.",
         "Decepción ante productos o regalos genéricos vendidos sin narrativa ni cuidado estético."
@@ -202,7 +203,7 @@ window.TINTA_SACHI_DATA = {
         "Poseer ediciones y coleccionables que expresen su identidad lectora y gusto cultural.",
         "Compartir detalles memorables y con significado genuino con personas especiales.",
         "Alcanzar autonomía económica, bienestar emocional y graduación profesional.",
-        "Experimentar ilusión, serenidad y pertenencia sin exceder su capacidad de gasto."
+        "Percibir un valor curado integral superior al precio pagado en sus compras especiales."
       ]
     }
   ],
@@ -228,15 +229,15 @@ window.TINTA_SACHI_DATA = {
     { id: 9, name: "Aburrimiento", valence: "Negativa", def: "Desconexión o falta de dinamismo puntual", scores: [0.0, 1.0, 0.0, 2.0], freq: 2, presPct: 50.0, sum: 3.0, avg: 0.75, posShare: 0.0, totalShare: 1.24 },
     { id: 10, name: "Tristeza", valence: "Negativa", def: "Sensibilidad melancólica leve", scores: [1.0, 0.0, 0.0, 0.0], freq: 1, presPct: 25.0, sum: 1.0, avg: 0.25, posShare: 0.0, totalShare: 0.41 },
     { id: 11, name: "Frustración", valence: "Negativa", def: "Bloqueo o dificultad de interacción", scores: [0.0, 0.0, 0.0, 0.0], freq: 0, presPct: 0.0, sum: 0.0, avg: 0.00, posShare: 0.0, totalShare: 0.00 },
-    { id: 12, name: "Miedo", valence: "Negativa", def: "Cautela percibida ante precio o fragilidad", scores: [2.0, 3.0, 2.0, 1.0], freq: 4, presPct: 100.0, sum: 8.0, avg: 2.00, posShare: 0.0, totalShare: 3.31 },
+    { id: 12, name: "Miedo", valence: "Negativa", def: "Cautela percibida ante inversión o fragilidad", scores: [2.0, 3.0, 2.0, 1.0], freq: 4, presPct: 100.0, sum: 8.0, avg: 2.00, posShare: 0.0, totalShare: 3.31 },
     { id: 13, name: "Vergüenza", valence: "Negativa", def: "Incomodidad social al exhibir la marca", scores: [0.0, 0.0, 0.0, 0.0], freq: 0, presPct: 0.0, sum: 0.0, avg: 0.00, posShare: 0.0, totalShare: 0.00 },
     { id: 14, name: "Indignación", valence: "Negativa", def: "Sensación de injusticia en relación valor-precio", scores: [0.0, 0.0, 0.0, 0.0], freq: 0, presPct: 0.0, sum: 0.0, avg: 0.00, posShare: 0.0, totalShare: 0.00 }
   ],
 
   evaluatorsSummary: [
     { id: 1, name: "Evaluador 1", posAvg: 7.86, negAvg: 0.43, net: 7.43, peak: "Orgullo (9,0) · Inspiración (9,0)", note: "Destaca la conexión simbólica e identitaria con la marca; registra sensibilidad emotiva leve en Tristeza (1,0) y Miedo moderado (2,0)." },
-    { id: 2, name: "Evaluador 2", posAvg: 8.21, negAvg: 0.57, net: 7.64, peak: "Deseo (9,0) · Sorpresa agradable (9,0)", note: "Fuerte atracción visceral inicial e intención de posesión; presenta el valor más visible en Miedo (3,0, vinculado a expectativa presupuestal)." },
-    { id: 3, name: "Evaluador 3", posAvg: 8.57, negAvg: 0.29, net: 8.28, peak: "Sorpresa agradable (10,0) · Satisfacción (9,0)", note: "Recepción global más alta y menor fricción negativa; entusiasmo sobresaliente ante el ritual de revelación y la canción original." },
+    { id: 2, name: "Evaluador 2", posAvg: 8.21, negAvg: 0.57, net: 7.64, peak: "Deseo (9,0) · Sorpresa agradable (9,0)", note: "Fuerte atracción visceral inicial e intención de posesión; presenta el valor más visible en Miedo (3,0, vinculado a la evaluación del precio estimado de la caja)." },
+    { id: 3, name: "Evaluador 3", posAvg: 8.57, negAvg: 0.29, net: 8.28, peak: "Sorpresa agradable (10,0) · Satisfacción (9,0)", note: "Recepción global más alta y menor fricción negativa; entusiasmo sobresaliente ante el ritual de revelación y la pista musical «Somewhere in Between»." },
     { id: 4, name: "Evaluador 4", posAvg: 8.14, negAvg: 0.43, net: 7.71, peak: "Deseo (9,0) · Satisfacción (9,0)", note: "Elevada complacencia con el conjunto curado y mínimo temor (Miedo 1,0), señalando oportunidad menor de ritmo en Aburrimiento (2,0)." }
   ],
 
@@ -244,10 +245,10 @@ window.TINTA_SACHI_DATA = {
     { component: "Presentación exterior de la caja (FEFCO 0427)", specs: "26 × 20 × 9 cm · Laminado mate índigo #1F1575", emotions: "Deseo (8,50) · Orgullo (8,25)", rationale: "El contraste sobrio entre el fondo nocturno y el sello naranja proyecta carácter editorial auténtico frente a empaques improvisados." },
     { component: "Expectativa y ritual de apertura", specs: "Sello 幸 + Papel seda ilustrado (20 g/m²)", emotions: "Sorpresa agradable (8,75) · Fascinación (8,13)", rationale: "Ocultar parcialmente las piezas tras una capa táctil ceremonial amplifica el asombro positivo en el momento de descubrir el interior." },
     { component: "Dimensión LEE (Experiencia literaria)", specs: "Libro o tomo manga + Separador 350 g con borla", emotions: "Inspiración (8,50) · Fascinación (8,13)", rationale: "Actúa como núcleo narrativo que desconecta al lector del flujo ansioso de notificaciones y restituye la concentración placentera." },
-    { component: "Dimensión ESCUCHA (Integración musical)", specs: "Tarjeta QR · «En mi cajita cabe otro lugar»", emotions: "Sorpresa agradable (8,75) · Inspiración (8,50) · Nostalgia (7,00)", rationale: "Añade una atmósfera auditiva inesperada en un producto impreso, envolviendo la lectura en una melodía creada para el universo de marca." },
+    { component: "Dimensión ESCUCHA (Integración musical)", specs: "Tarjeta QR · «Somewhere in Between»", emotions: "Sorpresa agradable (8,75) · Inspiración (8,50) · Nostalgia (7,00)", rationale: "Añade una atmósfera sonora íntima e introspectiva («Can we stay somewhere in between?») que acompaña la lectura y el video de experiencia." },
     { component: "Dimensión COLECCIONA (Objetos tangibles)", specs: "Pin esmaltado 幸/Torii, stickers vinilo y postales", emotions: "Deseo (8,50) · Satisfacción (8,25) · Orgullo (8,25)", rationale: "Materializa el relato en insignias físicas durables que el estudiante puede conservar en su escritorio o llevar al campus." },
     { component: "Dimensión REGALA (Vínculo interpersonal)", specs: "Tarjeta dedicatoria personalizable con sello 幸", emotions: "Orgullo (8,25) · Satisfacción (8,25) · Nostalgia (7,00)", rationale: "Convierte la caja en un gesto afectivo listo para obsequiar sin envoltorios adicionales, fortaleciendo lazos de pertenencia." },
-    { component: "Integración multisensorial y precio percibido", specs: "Sinergia vista + tacto + oído vs. presupuesto", emotions: "Satisfacción (8,25) · Miedo leve (2,00)", rationale: "La riqueza de estímulos consolida el agrado global sin generar Frustración (0,00), aunque su apariencia premium despierta cautela leve respecto al precio." },
+    { component: "Integración multisensorial y valor de inversión", specs: "Rango de caja ($80.000–$100.000 COP) vs. valor curado", emotions: "Satisfacción (8,25) · Miedo leve (2,00)", rationale: "Reunir obra impresa, pista musical y coleccionables justifica el rango de $80.000 a $100.000 COP sin Indignación (0,00), aunque exige comunicar con claridad cada pieza incluida para disipar la cautela estudiantil." },
     { component: "Identidad visual y gráfica oriental-editorial", specs: "Índigo #1F1575 · Naranja #E56020 · Ondas seigaiha", emotions: "Orgullo (8,25) · Fascinación (8,13) · Asco nulo (0,00)", rationale: "La armonía cromática y tipográfica evita saturación visual y valida la sensibilidad estética del público universitario." }
   ],
 
