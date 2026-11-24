@@ -1,0 +1,21 @@
+# Ignore workspace non-web deliverables by default
+/*
+
+# Track only the production web application for Vercel
+!/.gitignore
+!/index.html
+!/vercel.json
+!/README.md
+!/styles/
+!/styles/**
+!/scripts/
+!/scripts/**
+!/assets/
+!/assets/**
+!/planos_y_renders/
+!/planos_y_renders/**
+
+# Never commit OS or Google Drive metadata files
+**/[Dd]esktop.ini
+**/.DS_Store
+**/Thumbs.db

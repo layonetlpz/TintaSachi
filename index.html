@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1F1575" />
+  <meta name="description" content="Tinta-Sachi — Las historias también se viven. Experiencia editorial multisensorial coleccionable, estudio de marketing emocional y evaluación empírica PREMO." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tinta-Sachi · Las historias también se viven" />
+  <meta property="og:description" content="Experiencia editorial multisensorial que une literatura, canción original, objetos coleccionables y conexión emocional." />
+  <meta property="og:image" content="/assets/Poster_Ilustrado_TintaSachi.jpeg" />
+  <title>Tinta-Sachi · Las historias también se viven</title>
+  <link rel="icon" type="image/png" href="./assets/Kanji_Sachi_Pincel.png" />
+  <link rel="stylesheet" href="./styles/tinta-sachi.css" />
+  <script>window.TINTA_ASSET_BASE = "./";</script>
+</head>
+<body>
+  <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+  <div class="ink-progress-bar" id="inkProgressBar" aria-hidden="true"></div>
+
+  <!-- CABECERA EDITORIAL LIQUID GLASS -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#inicio" class="brand-link" aria-label="Tinta-Sachi Inicio">
+        <img src="./assets/Kanji_Sachi_Pincel.png" alt="Kanji Sachi 幸" class="brand-kanji-img" width="38" height="38" />
+        <span class="brand-wordmark">
+          <span class="brand-name">tinta-sachi</span>
+          <span class="brand-tagline">Las historias también se viven</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#resumen" class="nav-link">Resumen</a>
+        <a href="#producto" class="nav-link">Producto</a>
+        <a href="#dimensiones" class="nav-link">4 Dimensiones</a>
+        <a href="#consumidor" class="nav-link">Consumidor y Estrategia</a>
+        <a href="#premo" class="nav-link">Evaluación PREMO</a>
+        <a href="#informe" class="nav-link">Propuesta y Conclusiones</a>
+      </nav>
+
+      <a href="#dimensiones" class="header-cta">Vivir la caja →</a>
+
+      <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú de secciones" aria-expanded="false" aria-controls="mobileDrawer">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="mobile-drawer" id="mobileDrawer" aria-label="Menú móvil">
+      <div class="mobile-drawer-links">
+        <a href="#resumen">1. Resumen ejecutivo y propósito</a>
+        <a href="#producto">2. Presentación de la caja (FEFCO 0427)</a>
+        <a href="#dimensiones">3. Las 4 dimensiones (Lee · Escucha · Colecciona · Regala)</a>
+        <a href="#consumidor">4. Público objetivo, cómic y estrategia</a>
+        <a href="#premo">5. Evaluación emocional PREMO y gráficos</a>
+        <a href="#informe">6. Propuesta de valor, conclusiones y referencias</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido-principal">
+    <!-- ====================================================================
+         HERO PRINCIPAL: INTRODUCCIÓN VISUAL DE MARCA
+         ==================================================================== -->
+    <section class="hero" id="inicio">
+      <svg class="hero-waves-svg" viewBox="0 0 1440 700" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <pattern id="seigaihaHero" width="120" height="60" patternUnits="userSpaceOnUse">
+            <circle cx="60" cy="60" r="56" fill="none" stroke="#FFFFFF" stroke-width="1.2" />
+            <circle cx="60" cy="60" r="40" fill="none" stroke="#FFFFFF" stroke-width="1.2" />
+            <circle cx="60" cy="60" r="24" fill="none" stroke="#FFFFFF" stroke-width="1.2" />
+            <circle cx="0" cy="60" r="56" fill="none" stroke="#FFFFFF" stroke-width="1.2" />
+            <circle cx="120" cy="60" r="56" fill="none" stroke="#FFFFFF" stroke-width="1.2" />
+          </pattern>
+        </defs>
+        <rect width="1440" height="700" fill="url(#seigaihaHero)" />
+      </svg>
+
+      <div class="container hero-grid">
+        <div class="reveal">
+          <div class="hero-kicker">
+            <span>幸</span>
+            <span>Experiencia Editorial Multisensorial</span>
+          </div>
+          <h1 class="hero-title">
+            Las historias <em>también se viven</em> fuera del papel.
+          </h1>
+          <p class="hero-description">
+            <strong>Tinta-Sachi</strong> transforma la lectura tradicional en un refugio sensorial coleccionable que une literatura curada, una canción original, piezas tangibles de edición especial y el gesto afectivo de regalar.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#producto" class="btn btn-primary">Descubrir la caja 幸</a>
+            <button type="button" class="btn btn-ghost-light" id="heroPlaySongBtn">
+              ♫ Escuchar «En mi cajita cabe otro lugar»
+            </button>
+          </div>
+
+          <div class="hero-pillars-strip" aria-label="Cuatro dimensiones de Tinta-Sachi">
+            <a href="#dimensiones" class="hero-pillar-chip" data-goto-dim="lee">
+              <strong>01 · LEE</strong>
+              <span>Obra y narrativa</span>
+            </a>
+            <a href="#dimensiones" class="hero-pillar-chip" data-goto-dim="escucha">
+              <strong>02 · ESCUCHA</strong>
+              <span>Canción vía QR</span>
+            </a>
+            <a href="#dimensiones" class="hero-pillar-chip" data-goto-dim="colecciona">
+              <strong>03 · COLECCIONA</strong>
+              <span>Objetos de edición</span>
+            </a>
+            <a href="#dimensiones" class="hero-pillar-chip" data-goto-dim="regala">
+              <strong>04 · REGALA</strong>
+              <span>Vínculo con sello 幸</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-showcase reveal reveal--scale">
+          <div class="hero-halo" aria-hidden="true"></div>
+          <div class="hero-box-frame liquid-glass">
+            <img
+              src="./assets/Caja_TintaSachi_Render.png"
+              alt="Render conceptual de la caja Tinta-Sachi abierta mostrando papel seda ilustrado en tonos índigo y naranja"
+              class="hero-box-img"
+              width="440"
+              height="310"
+            />
+            <div class="hero-specs-bar">
+              <div class="spec-mini">
+                <small>Dimensiones</small>
+                <strong>26 × 20 × 9 cm</strong>
+              </div>
+              <div class="spec-mini">
+                <small>Estructura</small>
+                <strong>FEFCO 0427</strong>
+              </div>
+              <div class="spec-mini">
+                <small>Identidad</small>
+                <strong>#1F1575 · #E56020</strong>
+              </div>
+            </div>
+            <p class="caption-tag">Representación digital de diseño del empaque autoarmable Tinta-Sachi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CAPÍTULO 1: RESUMEN EJECUTIVO Y PROPÓSITO DEL ESTUDIO
+         ==================================================================== -->
+    <section class="chapter chapter--paper seigaiha-accent" id="resumen">
+      <div class="container">
+        <div class="chapter-header reveal">
+          <span class="eyebrow">Capítulo I · Visión Integral del Proyecto</span>
+          <h2 class="chapter-title">Resumen ejecutivo y propósito del estudio</h2>
+          <p class="chapter-lead">
+            Síntesis estructurada del diseño de producto con marketing emocional, perfil del consumidor universitario, evaluación empírica mediante PREMO Emotions y propuesta de valor consolidada.
+          </p>
+        </div>
+
+        <div class="exec-kpi-strip reveal">
+          <div class="kpi-tile">
+            <span class="kpi-label">Emociones Positivas PREMO</span>
+            <div class="kpi-value">8,20 / 10</div>
+            <div class="kpi-note">100% de presencia en los 4 evaluadores</div>
+          </div>
+          <div class="kpi-tile kpi-tile--accent">
+            <span class="kpi-label">Emoción Predominante</span>
+            <div class="kpi-value">8,75 / 10</div>
+            <div class="kpi-note">Sorpresa agradable, seguida de Deseo (8,50)</div>
+          </div>
+          <div class="kpi-tile kpi-tile--emerald">
+            <span class="kpi-label">Emociones Negativas</span>
+            <div class="kpi-value">0,43 / 10</div>
+            <div class="kpi-note">0,00 en Asco, Frustración, Vergüenza e Indignación</div>
+          </div>
+          <div class="kpi-tile">
+            <span class="kpi-label">Decisión Estratégica</span>
+            <div class="kpi-value">MANTENER</div>
+            <div class="kpi-note">95,03% de masa emocional positiva (+7,77 pts)</div>
+          </div>
+        </div>
+
+        <div class="exec-grid">
+          <article class="editorial-card exec-block prose reveal">
+            <h3>Propósito del estudio</h3>
+            <p>
+              Desarrollar y fundamentar una propuesta de producto experiencial concebida desde el marketing emocional —<strong>Tinta-Sachi</strong>—, superando la venta fragmentada de artículos sueltos de cultura pop observada en comercios locales de Montería (mugs, camisetas o estampados aislados sin relato).
+            </p>
+            <p>
+              El estudio articula investigación empática del consumidor, narrativa gráfica, ingeniería de empaque y medición no verbal mediante el instrumento <strong>PrEmo</strong> para verificar la coherencia entre la intención afectiva diseñada y la respuesta real percibida.
+            </p>
+          </article>
+
+          <article class="editorial-card exec-block prose reveal">
+            <h3>Diseño del producto con marketing emocional</h3>
+            <p>
+              Bajo la promesa <em>«Las historias también se viven»</em>, Tinta-Sachi fusiona la palabra española <em>tinta</em> (huella literaria e ilustrada) con el vocablo japonés <em>sachi</em> (<strong>幸</strong>, felicidad y buena fortuna).
+            </p>
+            <p>
+              Su arquitectura integra cuatro dimensiones en una caja autoarmable <strong>FEFCO 0427 (26 × 20 × 9 cm)</strong> vestida en índigo profundo (<code>#1F1575</code>) y naranja tinta (<code>#E56020</code>): <strong>LEE</strong> (obra impresa), <strong>ESCUCHA</strong> (canción original vía código QR), <strong>COLECCIONA</strong> (objetos de edición) y <strong>REGALA</strong> (tarjeta personalizable con sello 幸).
+            </p>
+          </article>
+
+          <article class="editorial-card exec-block prose reveal">
+            <h3>Público objetivo y aplicación de PREMO</h3>
+            <p>
+              El segmento primario corresponde a jóvenes universitarios de Montería, Córdoba (17 a 23 años, estratos 2 a 4), personificados en <strong>Juliana (20 años)</strong>: lectora y fan de anime, fantasía y música contemporánea que enfrenta agotamiento académico y vacío tras horas de pantallas.
+            </p>
+            <p>
+              La validación emocional se realizó con <strong>cuatro evaluadores independientes</strong> (Evaluador 1 a Evaluador 4) sobre las 14 emociones de PrEmo en escala de intensidad de 0 a 10, capturando reacciones afectivas inmediatas tras explorar la experiencia sin sesgos previos.
+            </p>
+          </article>
+
+          <article class="editorial-card exec-block prose reveal">
+            <h3>Principales resultados y propuesta de valor</h3>
+            <p>
+              Las siete emociones positivas registraron activación unánime (promedio <strong>8,20/10</strong>), encabezadas por <strong>Sorpresa agradable (8,75)</strong>, <strong>Deseo (8,50)</strong> e <strong>Inspiración (8,50)</strong>, junto con Satisfacción (8,25), Orgullo (8,25), Fascinación (8,13) y Nostalgia (7,00). Las negativas fueron mínimas (<strong>0,43/10</strong>), apareciendo únicamente Miedo leve (2,00), Aburrimiento (0,75) y Tristeza (0,25).
+            </p>
+            <p>
+              La propuesta de valor entrega un refugio nocturno tangible, curado y obsequiable que conecta con los niveles de pertenencia, reconocimiento y autorrealización de Maslow.
+            </p>
+          </article>
+        </div>
+
+        <div class="exec-conclusion-banner reveal">
+          <h3>Conclusión general del resumen ejecutivo</h3>
+          <p>
+            El proyecto comprueba a nivel exploratorio que la diferenciación sostenible de Tinta-Sachi no proviene de los insumos físicos por separado, sino de la coreografía emocional que une lectura, música original, estética editorial japonesa y coleccionismo significativo. Al superar con holgura los criterios de validación PREMO (media positiva ≥ 7,0 y negativa ≤ 3,0), se ratifica la decisión de <strong>MANTENER</strong> el diseño integral, incorporando perfeccionamientos tácticos para elevar la memoria nostálgica y brindar claridad absoluta en la relación contenido-precio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CAPÍTULO 2: PRESENTACIÓN DEL PRODUCTO Y LAS 4 DIMENSIONES
+         ==================================================================== -->
+    <section class="chapter chapter--dark" id="producto">
+      <div class="container">
+        <div class="chapter-header reveal">
+          <span class="eyebrow">Capítulo II · Ingeniería y Narrativa del Producto</span>
+          <h2 class="chapter-title">Anatomía de la caja Tinta-Sachi y sus especificaciones</h2>
+          <p class="chapter-lead">
+            Cada detalle material del empaque FEFCO 0427 fue proyectado para transformar el desempaque en un ritual pausado de anticipación, resguardo literario y calidez visual.
+          </p>
+        </div>
+
+        <div class="box-explorer reveal">
+          <div class="box-stage-panel liquid-glass">
+            <div>
+              <div class="stage-mode-tabs" id="boxModeTabs" role="tablist" aria-label="Vistas de la caja Tinta-Sachi"></div>
+              <div class="stage-visual-viewport is-sealed" id="boxStageViewport">
+                <img id="boxStageImg" src="./assets/Caja_TintaSachi_Render.png" alt="Empaque Tinta-Sachi" loading="lazy" />
+                <button type="button" class="unbox-seal-trigger" id="unboxSealBtn">Romper el sello 幸 y abrir caja</button>
+              </div>
+            </div>
+            <p class="caption-tag" id="boxStageCaption"></p>
+          </div>
+
+          <div class="box-stage-panel liquid-glass">
+            <div>
+              <span class="eyebrow" id="boxStageBadge">ESTRUCTURA EXTERIOR · FEFCO 0427</span>
+              <h3 class="section-subtitle" id="boxStageTitle">Empaque rígido autoarmable en índigo nocturno</h3>
+              <p id="boxStageDesc" style="color:rgba(250,247,255,0.86);line-height:1.7;margin-bottom:22px;"></p>
+
+              <div class="specs-checklist" aria-label="Especificaciones técnicas documentadas">
+                <div class="spec-row">
+                  <strong>Dimensiones exteriores</strong>
+                  <span>26 × 20 × 9 cm (largo × ancho × alto)</span>
+                </div>
+                <div class="spec-row">
+                  <strong>Estándar estructural</strong>
+                  <span>FEFCO 0427 · Caja mailer autoarmable con aletas de bloqueo</span>
+                </div>
+                <div class="spec-row">
+                  <strong>Sustrato y acabado</strong>
+                  <span>Cartón microcorrugado flauta E (1,5 mm) con laminado mate</span>
+                </div>
+                <div class="spec-row">
+                  <strong>Capa de revelación</strong>
+                  <span>Papel seda crema (20 g/m²) ilustrado + sello adhesivo 幸</span>
+                </div>
+                <div class="spec-row">
+                  <strong>Paleta cromática</strong>
+                  <span class="swatch-inline">
+                    <i class="swatch-dot" style="background:#1F1575;"></i> Índigo #1F1575 ·
+                    <i class="swatch-dot" style="background:#E56020;"></i> Naranja #E56020
+                  </span>
+                </div>
+              </div>
+            </div>
+            <p style="font-size:0.78rem;color:rgba(250,247,255,0.62);margin:18px 0 0;">
+              Nota de transparencia: Las imágenes corresponden a representaciones digitales y planos técnicos documentados para el montaje del prototipo físico de demostración en aula.
+            </p>
+          </div>
+        </div>
+
+        <!-- LAS 4 DIMENSIONES INTERACTIVAS -->
+        <div id="dimensiones" style="scroll-margin-top:92px;">
+          <div class="chapter-header reveal" style="margin-bottom:32px;">
+            <span class="eyebrow">Experiencia Interactiva Multisensorial</span>
+            <h2 class="chapter-title">Las cuatro dimensiones: Lee, Escucha, Colecciona y Regala</h2>
+            <p class="chapter-lead">
+              Explora cada pilar constitutivo de Tinta-Sachi: elige un universo literario, reproduce la canción original de la marca, examina los coleccionables y personaliza una tarjeta con sello 幸.
+            </p>
+          </div>
+
+          <div class="dimensions-nav reveal" role="tablist" aria-label="Dimensiones de experiencia">
+            <button type="button" role="tab" class="dim-tab active" aria-selected="true" data-dim="lee">
+              <span class="dim-num">DIMENSIÓN 01</span>
+              <span class="dim-title">LEE</span>
+              <span class="dim-sub">Literatura curada e inicio del viaje</span>
+            </button>
+            <button type="button" role="tab" class="dim-tab" aria-selected="false" data-dim="escucha">
+              <span class="dim-num">DIMENSIÓN 02</span>
+              <span class="dim-title">ESCUCHA</span>
+              <span class="dim-sub">Canción original vía código QR</span>
+            </button>
+            <button type="button" role="tab" class="dim-tab" aria-selected="false" data-dim="colecciona">
+              <span class="dim-num">DIMENSIÓN 03</span>
+              <span class="dim-title">COLECCIONA</span>
+              <span class="dim-sub">Pines, separadores y arte tangible</span>
+            </button>
+            <button type="button" role="tab" class="dim-tab" aria-selected="false" data-dim="regala">
+              <span class="dim-num">DIMENSIÓN 04</span>
+              <span class="dim-title">REGALA</span>
+              <span class="dim-sub">Obsequio significativo con sello 幸</span>
+            </button>
+          </div>
+
+          <!-- PANEL 01: LEE -->
+          <div id="panel-lee" class="dim-panel active liquid-glass" role="tabpanel">
+            <div class="editions-selector" id="editionsSelector" aria-label="Selección de edición narrativa"></div>
+            <div class="book-spread">
+              <div>
+                <span class="edition-badge" id="leeCategory">MANGA &amp; ANIME</span>
+                <h3 class="section-subtitle" id="leeTitle" style="color:var(--indigo);margin-top:4px;">Edición Shōnen: Espíritu de Travesía</h3>
+                <blockquote class="book-quote" id="leeQuote"></blockquote>
+                <p id="leeSynopsis" style="line-height:1.72;margin-bottom:16px;"></p>
+                <div style="padding:14px 16px;border-radius:12px;background:var(--paper-warm);border:1px solid var(--border-light);font-size:0.88rem;">
+                  <strong style="color:var(--indigo);display:block;margin-bottom:3px;">Componente físico documentado en caja:</strong>
+                  <span id="leeSpec"></span>
+                </div>
+              </div>
+              <figure style="margin:0;background:#150F3D;padding:16px;border-radius:16px;text-align:center;color:#fff;">
+                <img id="leeArtwork" src="./assets/Poster_Ilustrado_TintaSachi.jpeg" alt="Ilustración de edición Tinta-Sachi" style="max-height:330px;margin:0 auto;border-radius:10px;object-fit:contain;" loading="lazy" />
+                <figcaption id="leeArtworkCaption" style="font-size:0.78rem;color:#FFC09F;margin-top:10px;"></figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <!-- PANEL 02: ESCUCHA -->
+          <div id="panel-escucha" class="dim-panel liquid-glass" role="tabpanel">
+            <div class="music-studio">
+              <div class="vinyl-turntable">
+                <div class="vinyl-disc" id="vinylDisc" aria-hidden="true">
+                  <img src="./assets/Kanji_Sachi_Pincel.png" alt="" class="vinyl-center-kanji" />
+                </div>
+                <div class="equalizer-bars" id="eqBars" aria-hidden="true">
+                  <span class="eq-bar"></span>
+                  <span class="eq-bar"></span>
+                  <span class="eq-bar"></span>
+                  <span class="eq-bar"></span>
+                  <span class="eq-bar"></span>
+                </div>
+                <span style="font-size:0.76rem;color:#FFB48E;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;">Acceso por tarjeta QR interior</span>
+              </div>
+
+              <div>
+                <span class="eyebrow">Banda Sonora Original de Marca</span>
+                <h3 class="section-subtitle" style="margin-bottom:8px;">«En mi cajita cabe otro lugar»</h3>
+                <p style="color:rgba(250,247,255,0.85);margin:0 0 14px;max-width:64ch;">
+                  Dentro de cada caja FEFCO 0427 reposa una postal ilustrada (10 × 15 cm) con código QR que conecta la lectura física con la composición musical original de Tinta-Sachi, envolviendo al lector en una atmósfera íntima que bloquea el ruido exterior.
+                </p>
+
+                <div class="audio-controls-bar">
+                  <button type="button" class="btn btn-primary" id="customPlayBtn">▶ Reproducir «En mi cajita cabe otro lugar»</button>
+                </div>
+
+                <audio id="brandAudio" controls preload="metadata" style="width:100%;max-width:540px;border-radius:10px;margin-bottom:8px;" aria-label="Reproductor de la canción oficial En mi cajita cabe otro lugar"></audio>
+
+                <div class="lyrics-verses">
+                  <div class="verse-card">
+                    <strong style="color:#FFB48E;display:block;font-size:0.76rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Estrofa · El ruido afuera</strong>
+                    <em>«La ciudad corre y yo detrás, coches, mensajes, otra señal; notas que pesan, vidas perfectas y mi futuro haciendo preguntas… Pero en mi cuarto puedo parar, abro una historia y vuelvo a respirar.»</em>
+                  </div>
+                  <div class="verse-card">
+                    <strong style="color:#FFB48E;display:block;font-size:0.76rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Coro · El refugio interior</strong>
+                    <em>«En mi cajita cabe otro lugar, manga y novelas para despegar; un héroe canta junto a mi canción y el mundo espera afuera un rato. Me llevo mis mundos cerca de mí, pequeñas cosas que me hacen feliz.»</em>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PANEL 03: COLECCIONA -->
+          <div id="panel-colecciona" class="dim-panel liquid-glass" role="tabpanel">
+            <div class="collectibles-layout">
+              <div>
+                <span class="eyebrow">Objetos con Identidad Narrativa</span>
+                <h3 class="section-subtitle">Piezas coleccionables y extensión cotidiana</h3>
+                <p style="color:rgba(250,247,255,0.84);margin:0 0 18px;">
+                  Selecciona cada componente para consultar sus materiales, acabados y función simbólica dentro de la experiencia de usuario:
+                </p>
+
+                <div class="collectible-cards" id="collectibleCards"></div>
+
+                <div style="margin-top:18px;padding:20px;border-radius:16px;background:rgba(12,8,40,0.62);border:1px solid rgba(255,255,255,0.14);">
+                  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px;">
+                    <strong id="collDetailTitle" style="font-size:1.05rem;color:#FFFFFF;"></strong>
+                    <span id="collDetailTag" class="edition-badge" style="margin:0;"></span>
+                  </div>
+                  <p id="collDetailDesc" style="margin:0 0 10px;font-size:0.92rem;color:rgba(250,247,255,0.88);line-height:1.62;"></p>
+                  <small id="collDetailEmotion" style="color:#FFB48E;font-weight:600;"></small>
+                </div>
+              </div>
+
+              <figure style="margin:0;background:rgba(12,8,40,0.55);padding:18px;border-radius:18px;border:1px solid rgba(255,255,255,0.12);">
+                <img src="./assets/Catalogo_Merchandising_TintaSachi.jpg" alt="Catálogo visual de coleccionables Tinta-Sachi: libretas, separadores, stickers, pines, llaveros, postales, buzo, camiseta, vaso térmico y tote bag" style="border-radius:12px;width:100%;" loading="lazy" />
+                <figcaption style="font-size:0.78rem;color:rgba(250,247,255,0.72);margin-top:10px;text-align:center;">
+                  Representación digital del ecosistema de piezas coleccionables y artículos de extensión diaria Tinta-Sachi.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <!-- PANEL 04: REGALA -->
+          <div id="panel-regala" class="dim-panel liquid-glass" role="tabpanel">
+            <div class="gift-studio">
+              <div class="gift-form">
+                <span class="eyebrow">Vínculo Afectivo y Dedicatoria</span>
+                <h3 class="section-subtitle">Personaliza la tarjeta ceremonial con sello 幸</h3>
+                <p style="color:rgba(250,247,255,0.84);margin:0 0 16px;font-size:0.94rem;">
+                  La dimensión <strong>REGALA</strong> convierte cada caja en un obsequio curado —para alguien cercano o como autorregalo reparador— sin requerir envolturas adicionales.
+                </p>
+
+                <div class="gift-presets" id="giftPresets" aria-label="Mensajes sugeridos por ocasión"></div>
+
+                <label for="giftToInput">Destinatario/a:</label>
+                <input id="giftToInput" type="text" class="gift-input" value="Juliana" maxlength="48" />
+
+                <label for="giftMsgInput">Dedicatoria personal:</label>
+                <textarea id="giftMsgInput" rows="3" class="gift-input" maxlength="260">Después de tantos desvelos y entregas, mereces cerrar las pestañas del celular y perderte en un universo hecho a tu ritmo. Las historias también se viven.</textarea>
+
+                <button type="button" class="btn btn-primary" id="downloadGiftCardBtn">Descargar tarjeta personalizada (.png)</button>
+              </div>
+
+              <div class="gift-card-preview" aria-live="polite">
+                <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.16em;color:var(--naranja);text-transform:uppercase;">
+                  Edición Coleccionable · Tinta-Sachi
+                </div>
+                <h4 style="font-family:var(--font-display);font-size:1.75rem;color:var(--indigo);margin:10px 0 14px;font-weight:400;">
+                  Para: <span id="giftPreviewTo">Juliana</span>
+                </h4>
+                <p id="giftPreviewMsg" style="font-family:var(--font-editorial);font-size:1.25rem;font-style:italic;line-height:1.55;color:#282147;margin:0 64px 20px 0;">
+                  Después de tantos desvelos y entregas, mereces cerrar las pestañas del celular y perderte en un universo hecho a tu ritmo. Las historias también se viven.
+                </p>
+                <div style="font-size:0.76rem;color:var(--ink-muted);border-top:1px solid rgba(31,21,117,0.12);padding-top:10px;margin-right:76px;">
+                  Cápsula de memoria literaria · Lee · Escucha · Colecciona · Regala
+                </div>
+                <div class="wax-seal-badge" title="Sello Sachi 幸 de buena fortuna">
+                  <img src="./assets/Kanji_Sachi_Pincel.png" alt="Sello 幸" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CAPÍTULO 3: PÚBLICO OBJETIVO, STORYTELLING Y ESTRATEGIA
+         ==================================================================== -->
+    <section class="chapter chapter--warm" id="consumidor">
+      <div class="container">
+        <div class="chapter-header reveal">
+          <span class="eyebrow">Capítulo III · Comprensión del Consumidor y Estrategia</span>
+          <h2 class="chapter-title">Público objetivo analizado, narrativa y fundamentación</h2>
+          <p class="chapter-lead">
+            Del diagnóstico empático de Juliana en Montería a la construcción del arco narrativo, el viaje del cliente, la jerarquía de Maslow y el posicionamiento en la Matriz de Ansoff.
+          </p>
+        </div>
+
+        <!-- BUYER PERSONA JULIANA -->
+        <div class="persona-grid reveal">
+          <aside class="persona-portrait-card">
+            <div class="persona-img-wrap">
+              <img src="./assets/Juliana_Unboxing_Cutout.png" alt="Representación de Juliana abriendo su caja Tinta-Sachi en su escritorio" loading="lazy" />
+            </div>
+            <span class="edition-badge">Buyer Persona Estratégico</span>
+            <h3 style="font-family:var(--font-display);font-size:1.85rem;margin:4px 0 6px;font-weight:400;">Juliana, 20 años</h3>
+            <p style="margin:0;font-size:0.9rem;color:rgba(250,247,255,0.85);">
+              Estudiante universitaria en Montería, Córdoba · Soltera · Lectora y seguidora de anime, fantasía y música pop.
+            </p>
+            <div class="persona-meta-list">
+              <div class="persona-meta-item">
+                <small>Segmento socioeconómico</small>
+                <strong>Estratos 2, 3 y 4</strong>
+              </div>
+              <div class="persona-meta-item">
+                <small>Presupuesto de referencia</small>
+                <strong>$15.000–$60.000 COP</strong>
+              </div>
+              <div class="persona-meta-item">
+                <small>Ecosistema digital</small>
+                <strong>TikTok · IG · WhatsApp</strong>
+              </div>
+              <div class="persona-meta-item">
+                <small>Detonante (Trigger)</small>
+                <strong>Cierre de parciales / regalo</strong>
+              </div>
+            </div>
+          </aside>
+
+          <div class="editorial-card prose">
+            <h3 class="section-subtitle">Insight emocional y contradicción íntima</h3>
+            <p>
+              Juliana divide su rutina entre clases, transporte urbano, entregas grupales y decenas de notificaciones pendientes. Hacia su entorno proyecta seguridad y dinamismo, pero al llegar la noche experimenta <strong>sobrecarga ansiosa acompañada de un anhelo profundo de refugio tangible</strong>.
+            </p>
+            <p>
+              Aunque recurre al <em>scroll</em> en redes sociales, plataformas de <em>streaming</em> o compras rápidas en línea para despejarse, percibe que los estímulos efímeros de pantalla no la recargan emocionalmente y que los artículos locales sueltos (mugs de $15.000–$25.000 COP o camisetas de $35.000 COP) carecen de narrativa y cuidado curatorial.
+            </p>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:20px;">
+              <div style="padding:16px;border-radius:12px;background:var(--paper);border-left:4px solid var(--indigo);">
+                <strong style="color:var(--indigo);display:block;font-size:0.88rem;margin-bottom:4px;">Motivación profunda</strong>
+                <span style="font-size:0.87rem;">Habitar un espacio propio que valide su sensibilidad estética, lectora y cultural sin descuidar su presupuesto estudiantil.</span>
+              </div>
+              <div style="padding:16px;border-radius:12px;background:var(--naranja-tint);border-left:4px solid var(--naranja);">
+                <strong style="color:#B6420B;display:block;font-size:0.88rem;margin-bottom:4px;">Sustitutos actuales superados</strong>
+                <span style="font-size:0.87rem;">Ocio digital pasivo (Netflix, TikTok), libros digitales sin ritual táctil y mercancía genérica sin identidad de marca.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MAPA DE EMPATÍA DE 6 CUADRANTES -->
+        <div class="reveal" style="margin-bottom:56px;">
+          <h3 class="section-subtitle">Mapa de empatía profundo (6 cuadrantes)</h3>
+          <p style="color:var(--ink-muted);max-width:72ch;margin:0 0 16px;">
+            Sistematización estructurada a partir del cartel físico construido por el equipo investigador, con cinco hallazgos específicos por dimensión conductual y afectiva:
+          </p>
+          <div class="empathy-grid" id="empathyGrid"></div>
+        </div>
+
+        <div class="editorial-divider" aria-hidden="true">✦ 幸 ✦</div>
+
+        <!-- STORYTELLING: CÓMIC DE 6 VIÑETAS -->
+        <div class="comic-showcase reveal" style="margin-bottom:56px;">
+          <figure class="comic-figure">
+            <img src="./assets/Comic_6_Vinetas_TintaSachi_Original.jpg" alt="Cómic ilustrado de 6 viñetas que narra la transformación emocional de Juliana con Tinta-Sachi" loading="lazy" />
+            <figcaption style="font-size:0.8rem;color:#FFC09F;margin-top:10px;text-align:center;">
+              Ilustración original de 6 viñetas elaborada para el proyecto Tinta-Sachi.
+            </figcaption>
+          </figure>
+
+          <div>
+            <span class="eyebrow">Storytelling Emocional</span>
+            <h3 class="section-subtitle">Arco de transformación en seis viñetas</h3>
+            <p style="color:var(--ink-muted);margin:0 0 18px;">
+              Cada escena nombra con precisión el estado afectivo de Juliana, evidenciando el quiebre entre la saturación digital inicial y la plenitud serena que habilita la caja:
+            </p>
+            <div class="vinetas-list" id="comicPanelsList"></div>
+            <div style="margin-top:16px;padding:16px 18px;border-radius:14px;background:var(--surface-white);border:1px solid var(--border-strong);font-size:0.89rem;">
+              <strong style="color:var(--indigo);">Prueba crítica de indispensabilidad:</strong> Si se retira Tinta-Sachi del relato, la historia se interrumpe en el ciclo de frustración de las viñetas 1 a 3; ningún sustituto digital logró generar la pausa multisensorial tangible de las viñetas 4 a 6.
+            </div>
+          </div>
+        </div>
+
+        <!-- CUSTOMER JOURNEY INTERACTIVO + FUNDAMENTACIÓN ESTRATÉGICA -->
+        <div class="editorial-card reveal" style="margin-bottom:28px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-bottom:16px;">
+            <div>
+              <span class="eyebrow">Viaje del Cliente (Antes · Durante · Después)</span>
+              <h3 class="section-subtitle" style="margin-bottom:4px;">Curva emocional interactiva del Customer Journey</h3>
+            </div>
+            <small style="color:var(--ink-muted);font-weight:600;">Haz clic en cualquier hito de la curva para inspeccionar el momento</small>
+          </div>
+
+          <div id="journeyInteractiveSvg" style="overflow-x:auto;margin-bottom:14px;"></div>
+          <div id="journeyPointDetail" style="padding:16px 20px;border-radius:12px;background:var(--paper);border-left:4px solid var(--naranja);"></div>
+        </div>
+
+        <div class="exec-grid reveal">
+          <article class="editorial-card prose">
+            <span class="eyebrow">Jerarquía de Maslow</span>
+            <h3 class="section-subtitle">Niveles superiores activos (3, 4 y 5)</h3>
+            <p>
+              Tinta-Sachi opera como núcleo central en <strong>Pertenencia (Nivel 3)</strong> al vincular al lector con comunidades narrativas y fortalecer lazos afectivos mediante el pilar <em>Regala</em>; asciende a <strong>Reconocimiento (Nivel 4)</strong> mediante pines y ediciones curadas que expresan identidad cultural propia; y estimula la <strong>Autorrealización (Nivel 5)</strong> al cultivar imaginación, lectura reflexiva y bienestar estético, respaldada por seguridad emocional (Nivel 2).
+            </p>
+          </article>
+
+          <article class="editorial-card prose">
+            <span class="eyebrow">Matriz de Ansoff e Identidad</span>
+            <h3 class="section-subtitle">Estrategia de Desarrollo de Producto</h3>
+            <p>
+              Frente a una estrategia de simple penetración de precios con mercancía suelta, el proyecto adopta <strong>Desarrollo de Producto (Producto Nuevo · Mercado Actual)</strong>: ofrecer a la comunidad universitaria lectora y fan ya existente en Montería una solución multisensorial integrada inédita en el mercado local, respaldada por una personalidad de marca <strong>Cómplice, Curiosa, Creativa y Cuidadosa</strong>.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CAPÍTULO 4: PREMO — EVALUACIÓN DE LA EXPERIENCIA EMOCIONAL
+         ==================================================================== -->
+    <section class="chapter chapter--paper" id="premo">
+      <div class="container">
+        <div class="chapter-header reveal">
+          <span class="eyebrow">Capítulo IV · Investigación Perceptual y Cuantitativa</span>
+          <h2 class="chapter-title">Aplicación del instrumento PREMO y resultados emocionales</h2>
+          <p class="chapter-lead">
+            Evaluación empírica no verbal de las 14 emociones del modelo PrEmo (Pieter Desmet) en cuatro evaluadores independientes, análisis cuantitativo verificado, visualizaciones e interpretación.
+          </p>
+        </div>
+
+        <!-- METODOLOGÍA DEL INSTRUMENTO PREMO -->
+        <div class="exec-grid reveal" style="margin-bottom:36px;">
+          <article class="editorial-card prose">
+            <h3 class="section-subtitle">Funcionamiento y protocolo del instrumento PREMO</h3>
+            <p>
+              El instrumento <strong>PrEmo (Product Emotion Measurement)</strong>, formulado por Pieter Desmet y colaboradores (Desmet, 2003b, 2018; Laurans &amp; Desmet, 2017), mide respuestas afectivas inmediatas frente a productos mediante catorce emociones discretas representadas visualmente: <strong>siete positivas</strong> (Deseo, Satisfacción, Fascinación, Sorpresa agradable, Orgullo, Inspiración y Nostalgia) y <strong>siete negativas</strong> (Asco, Aburrimiento, Tristeza, Frustración, Miedo, Vergüenza e Indignación).
+            </p>
+            <p>
+              Su aplicación evita que el participante filtre racionalmente su vivencia. En el procedimiento ejecutado, cada evaluador exploró de manera autónoma durante 2 a 3 minutos la propuesta física-digital de Tinta-Sachi —incluyendo empaque, narrativa y escucha con audífonos de <em>«En mi cajita cabe otro lugar»</em>— sin recibir explicaciones previas que indujeran la respuesta.
+            </p>
+          </article>
+
+          <article class="editorial-card prose">
+            <h3 class="section-subtitle">Participantes, escala y rigor metodológico</h3>
+            <p>
+              Participaron <strong>cuatro evaluadores independientes</strong> afines al segmento universitario objetivo, identificados rigurosamente como <strong>Evaluador 1, Evaluador 2, Evaluador 3 y Evaluador 4</strong>, excluyendo a los integrantes del equipo diseñador para prevenir sesgos de autoría.
+            </p>
+            <p>
+              Las valoraciones individuales se registraron en una escala cuantitativa de intensidad de <strong>0 a 10</strong> (donde <code>0</code> indica ausencia de la emoción y <code>10</code> intensidad máxima), estableciendo como regla de decisión conservar el diseño si la media positiva alcanzaba <strong>≥ 7,0/10</strong> y la negativa permanecía en <strong>≤ 3,0/10</strong>. Los análisis presentados provienen exclusivamente de dicha matriz cuantitativa documentada; al no existir transcripciones textuales literales ni datos biográficos individuales archivados, el estudio preserva el anonimato sin añadir testimonios supuestos.
+            </p>
+          </article>
+        </div>
+
+        <!-- MATRIZ INDIVIDUAL DE LOS 4 EVALUADORES -->
+        <div class="reveal" style="margin-bottom:44px;">
+          <h3 class="section-subtitle">Matriz de resultados individuales (4 evaluadores × 14 emociones)</h3>
+          <div class="premo-controls">
+            <div class="filter-group" role="group" aria-label="Filtrar emociones por valencia">
+              <button type="button" class="filter-pill active" data-premo-filter="all">Todas las emociones (14)</button>
+              <button type="button" class="filter-pill" data-premo-filter="pos">Positivas (7)</button>
+              <button type="button" class="filter-pill" data-premo-filter="neg">Negativas (7)</button>
+            </div>
+            <div class="filter-group" role="group" aria-label="Destacar evaluador">
+              <button type="button" class="filter-pill active" data-eval-spot="0">4 Evaluadores</button>
+              <button type="button" class="filter-pill" data-eval-spot="1">Evaluador 1</button>
+              <button type="button" class="filter-pill" data-eval-spot="2">Evaluador 2</button>
+              <button type="button" class="filter-pill" data-eval-spot="3">Evaluador 3</button>
+              <button type="button" class="filter-pill" data-eval-spot="4">Evaluador 4</button>
+            </div>
+          </div>
+
+          <div id="evaluatorProfileBanner" style="margin-bottom:14px;padding:14px 18px;border-radius:12px;background:var(--paper-warm);border-left:4px solid var(--naranja);font-size:0.9rem;"></div>
+
+          <div class="table-scroll-wrap" role="region" aria-label="Matriz cuantitativa PREMO de cuatro evaluadores" tabindex="0">
+            <table class="data-table">
+              <thead>
+                <tr id="premoMatrixHeadRow">
+                  <th>Emoción PREMO y definición operativa</th>
+                  <th>Valencia</th>
+                  <th class="num-col" data-ev-col="1">Eval. 1</th>
+                  <th class="num-col" data-ev-col="2">Eval. 2</th>
+                  <th class="num-col" data-ev-col="3">Eval. 3</th>
+                  <th class="num-col" data-ev-col="4">Eval. 4</th>
+                  <th class="num-col">Frecuencia (&gt;0)</th>
+                  <th class="num-col">Suma</th>
+                  <th class="num-col">Promedio (0–10)</th>
+                  <th class="num-col">% Masa Total</th>
+                </tr>
+              </thead>
+              <tbody id="premoMatrixBody"></tbody>
+              <tfoot id="premoMatrixFoot"></tfoot>
+            </table>
+          </div>
+        </div>
+
+        <!-- LOS 4 GRÁFICOS PROFESIONALES INTERACTIVOS -->
+        <div class="charts-stack">
+          <!-- GRÁFICO 1 -->
+          <article class="chart-card reveal">
+            <div class="chart-header">
+              <div>
+                <span class="chart-kicker">Gráfico 1 · Distribución General</span>
+                <h3 class="chart-title">Distribución general de emociones PREMO (intensidad media y presencia)</h3>
+              </div>
+              <div class="chart-legend">
+                <span class="legend-item"><i class="legend-swatch" style="background:#E56020;"></i> Positivas líderes (≥ 8,50)</span>
+                <span class="legend-item"><i class="legend-swatch" style="background:#1F1575;"></i> Positivas altas (7,00–8,25)</span>
+                <span class="legend-item"><i class="legend-swatch" style="background:#B8332A;"></i> Negativas leves (0,25–2,00)</span>
+                <span class="legend-item"><i class="legend-swatch" style="background:#B5AECA;"></i> Ausentes (0,00)</span>
+              </div>
+            </div>
+            <div id="chart1Container"></div>
+            <div class="chart-interpretation">
+              <strong>Interpretación del Gráfico 1:</strong> Las siete emociones positivas registran presencia del 100% (4/4 evaluadores) y superan o igualan el umbral objetivo de 7,0 puntos (línea punteada verde). <strong>Sorpresa agradable (8,75/10)</strong>, <strong>Deseo (8,50/10)</strong> e <strong>Inspiración (8,50/10)</strong> encabezan la respuesta emocional, seguidas muy de cerca por Satisfacción (8,25), Orgullo (8,25) y Fascinación (8,13), mientras que Nostalgia se sitúa en 7,00. En contraste, ninguna emoción negativa se aproxima al techo crítico de 3,0 (línea punteada roja), destacando la ausencia absoluta (0,00) de Asco, Frustración, Vergüenza e Indignación.
+            </div>
+          </article>
+
+          <!-- GRÁFICO 2 -->
+          <article class="chart-card reveal">
+            <div class="chart-header">
+              <div>
+                <span class="chart-kicker">Gráfico 2 · Análisis Intersujeto</span>
+                <h3 class="chart-title">Comparación de los cuatro evaluadores en emociones activas</h3>
+              </div>
+              <div class="chart-legend">
+                <span class="legend-item"><i class="legend-swatch" style="background:#1F1575;"></i> Evaluador 1</span>
+                <span class="legend-item"><i class="legend-swatch" style="background:#E56020;"></i> Evaluador 2</span>
+                <span class="legend-item"><i class="legend-swatch" style="background:#5A45D6;"></i> Evaluador 3</span>
+                <span class="legend-item"><i class="legend-swatch" style="background:#187958;"></i> Evaluador 4</span>
+              </div>
+            </div>
+            <div id="chart2Container"></div>
+            <div class="chart-interpretation">
+              <strong>Interpretación del Gráfico 2:</strong> La comparación intersujeto evidencia una recepción consistentemente favorable acompañada de variaciones individuales naturales. El <strong>Evaluador 3</strong> registra el perfil más entusiasta (media positiva de 8,57/10 y calificación máxima de 10,0 en Sorpresa agradable); el <strong>Evaluador 2</strong> (8,21/10) destaca en Deseo y Sorpresa (9,0) pero expresa la mayor sensibilidad relativa en Miedo (3,0); el <strong>Evaluador 4</strong> (8,14/10) sobresale en Satisfacción y Deseo (9,0) con mínimo Miedo (1,0) y leve Aburrimiento (2,0); y el <strong>Evaluador 1</strong> (7,86/10) prioriza las dimensiones simbólicas de Orgullo e Inspiración (9,0).
+            </div>
+          </article>
+
+          <!-- GRÁFICO 3 -->
+          <article class="chart-card reveal">
+            <div class="chart-header">
+              <div>
+                <span class="chart-kicker">Gráfico 3 · Estructura Relativa</span>
+                <h3 class="chart-title">Distribución porcentual de las emociones predominantes y masa afectiva</h3>
+              </div>
+            </div>
+            <div id="chart3Container"></div>
+            <div class="chart-interpretation">
+              <strong>Interpretación del Gráfico 3:</strong> Sobre los 229,50 puntos acumulados en el bloque positivo, los pesos relativos oscilan de forma equilibrada entre el <strong>15,25% de Sorpresa agradable</strong> y el <strong>12,20% de Nostalgia</strong> (suma exacta del 100,00%; 99,99% por redondeo). Al considerar el volumen afectivo completo de la prueba (241,50 puntos), el <strong>95,03% corresponde a emociones positivas</strong> frente a solo un 4,97% negativo residual, demostrando que la experiencia activa un espectro hedónico completo en lugar de depender de un estímulo aislado.
+            </div>
+          </article>
+
+          <!-- GRÁFICO 4 -->
+          <article class="chart-card reveal">
+            <div class="chart-header">
+              <div>
+                <span class="chart-kicker">Gráfico 4 · Síntesis Global</span>
+                <h3 class="chart-title">Resumen de la valoración global por dimensión y decisión estratégica</h3>
+              </div>
+            </div>
+            <div id="chart4Container"></div>
+            <div class="chart-interpretation">
+              <strong>Interpretación del Gráfico 4:</strong> El balance ejecutivo ratifica un diferencial neto de <strong>+7,77 puntos</strong> sobre 10 y un Índice Complementario de Afinidad Global de <strong>88,86/100</strong> (indicador analítico derivado, diferenciado de la escala primaria PREMO). Todas las dimensiones superan los 7,80 puntos en sus emociones asociadas, validando la decisión estratégica de <strong>MANTENER</strong> la arquitectura del producto con mejoras puntuales focalizadas en Nostalgia y claridad de precio.
+            </div>
+          </article>
+        </div>
+
+        <!-- RELACIÓN ENTRE EMOCIONES Y ATRIBUTOS DEL PRODUCTO -->
+        <div class="reveal" style="margin-bottom:48px;">
+          <h3 class="section-subtitle">Relación entre emociones y atributos del producto</h3>
+          <p style="color:var(--ink-muted);max-width:74ch;margin:0 0 18px;">
+            Siguiendo la teoría de valoración cognitiva (<em>appraisal</em>) en diseño de producto, la siguiente matriz establece asociaciones interpretativas —sin atribuir causalidad experimental aislada— entre los componentes de Tinta-Sachi y las respuestas emocionales medidas:
+          </p>
+          <div class="table-scroll-wrap" role="region" aria-label="Relación entre atributos del producto y emociones PREMO" tabindex="0">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Atributo o componente del producto</th>
+                  <th>Emociones PREMO asociadas</th>
+                  <th>Fundamento interpretativo en la experiencia</th>
+                </tr>
+              </thead>
+              <tbody id="attributeMapBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- INTERPRETACIÓN PROFUNDA DE LOS RESULTADOS (7 EJES) & CONCLUSIONES PREMO -->
+        <div class="exec-grid reveal">
+          <article class="editorial-card prose">
+            <span class="eyebrow">Interpretación de los Resultados (Parte I)</span>
+            <h3 class="section-subtitle">Predominio emocional, marketing afectivo y componentes de valor</h3>
+            <p>
+              <strong>1. Emociones predominantes y origen de la recepción positiva:</strong> El liderazgo simultáneo de Sorpresa agradable (8,75), Deseo (8,50) e Inspiración (8,50) revela que Tinta-Sachi genera tanto atracción inmediata como resonancia creativa. Esta recepción se explica por el contraste entre un empaque editorial cuidado y la fragmentación habitual de los artículos comerciales sueltos.
+            </p>
+            <p>
+              <strong>2. Conexión con el marketing emocional y aportes de mayor valor:</strong> Los datos confirman que el usuario valora el significado afectivo por encima de la utilidad aislada (Hassenzahl, 2010). Los componentes que mayor valor diferencial aportan son el ritual de apertura del sello 幸 con papel seda ilustrado y la sorpresa de acceder mediante QR a una canción compuesta para acompañar la lectura.
+            </p>
+          </article>
+
+          <article class="editorial-card prose">
+            <span class="eyebrow">Interpretación de los Resultados (Parte II)</span>
+            <h3 class="section-subtitle">Oportunidades de mejora, propuesta de valor y objetivos</h3>
+            <p>
+              <strong>3. Aspectos susceptibles de mejora:</strong> Aunque el promedio negativo es marginal (0,43/10), la aparición leve pero transversal de <strong>Miedo (2,00/10)</strong> en los cuatro evaluadores guarda coherencia directa con el <em>Pain Point</em> financiero detectado en el viaje de Juliana: la cautela estudiantil frente al precio percibido de una edición premium o el temor a maltratar piezas coleccionables. Asimismo, <strong>Nostalgia (7,00/10)</strong> ofrece margen de crecimiento frente a las demás emociones positivas, mientras que el leve Aburrimiento puntual (0,75/10) sugiere mantener textos complementarios ágiles.
+            </p>
+            <p>
+              <strong>4. Conclusión específica de PREMO:</strong> En coherencia con los objetivos del estudio, la evaluación valida el potencial de Tinta-Sachi como experiencia multisensorial coherente. Dado el carácter exploratorio de la muestra (<code>n = 4</code>), estos resultados no se extrapolan como censo de mercado general, pero sustentan con rigor empírico la continuidad y refinamiento del prototipo.
+            </p>
+          </article>
+        </div>
+
+        <!-- SIMULADOR EN AULA DESPLEGABLE (CONSERVA FUNCIONALIDAD ORIGINAL MEJORADA) -->
+        <details class="simulator-accordion reveal">
+          <summary class="simulator-summary">
+            <span>Laboratorio Interactivo PREMO en Aula · Simulador de captura individual y exportación CSV</span>
+            <span style="font-size:0.82rem;color:var(--naranja);">Desplegar herramienta ↓</span>
+          </summary>
+          <div class="simulator-body">
+            <p style="margin:0 0 14px;font-size:0.9rem;color:var(--ink-muted);">
+              Herramienta complementaria para demostraciones en vivo: permite a un nuevo participante calificar las 14 emociones en escala de 0 a 10 tras interactuar con la caja y exportar su ficha individual en formato CSV sin alterar la matriz consolidada del estudio.
+            </p>
+            <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+              <label for="simEvalSelect" style="font-size:0.86rem;font-weight:700;color:var(--indigo);">Sesión de demostración:</label>
+              <select id="simEvalSelect" style="padding:8px 12px;border-radius:8px;border:1px solid var(--border-strong);">
+                <option value="Participante Demo 1">Participante Demo 1</option>
+                <option value="Participante Demo 2">Participante Demo 2</option>
+                <option value="Docente Evaluador">Docente Evaluador</option>
+              </select>
+            </div>
+
+            <div class="sim-emotions-grid">
+              <div>
+                <h4 style="margin:0 0 10px;color:var(--emerald);">Emociones Positivas (1–7)</h4>
+                <div id="simPosList"></div>
+              </div>
+              <div>
+                <h4 style="margin:0 0 10px;color:var(--crimson);">Emociones Negativas (8–14)</h4>
+                <div id="simNegList"></div>
+              </div>
+            </div>
+
+            <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;">
+              <button type="button" class="btn btn-indigo" id="simSummaryBtn">Calcular lectura inmediata</button>
+              <button type="button" class="btn btn-primary" id="simExportCsvBtn">Descargar registro (.csv)</button>
+              <button type="button" class="filter-pill" id="simResetBtn">Reiniciar controles</button>
+            </div>
+            <div id="simResultOutput" style="display:none;margin-top:14px;padding:14px 18px;border-radius:12px;background:var(--paper-warm);border-left:4px solid var(--indigo);font-size:0.9rem;"></div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CAPÍTULO 5: PROPUESTA DE VALOR, MARCO TEÓRICO, CONCLUSIONES Y REFS
+         ==================================================================== -->
+    <section class="chapter chapter--warm" id="informe">
+      <div class="container">
+        <div class="chapter-header reveal">
+          <span class="eyebrow">Capítulo V · Síntesis Académica y Proyección</span>
+          <h2 class="chapter-title">Propuesta de valor, discusión teórica, conclusiones y recomendaciones</h2>
+          <p class="chapter-lead">
+            Integración de la literatura científica con los hallazgos empíricos de Tinta-Sachi, ajustes derivados del análisis PREMO y lineamientos futuros de investigación.
+          </p>
+        </div>
+
+        <!-- PROPUESTA DE VALOR CONSOLIDADA -->
+        <div class="editorial-card prose reveal" style="margin-bottom:36px;border-left:6px solid var(--naranja);">
+          <span class="eyebrow">Propuesta de Valor Refinada Post-PREMO</span>
+          <h3 class="section-subtitle">Un refugio narrativo multisensorial accesible y memorable</h3>
+          <p>
+            <strong>Tinta-Sachi</strong> ofrece a jóvenes lectores y seguidores de universos narrativos en Montería una caja coleccionable de <strong>26 × 20 × 9 cm (FEFCO 0427)</strong> que convierte el descanso nocturno o el acto de obsequiar en una experiencia emocional completa: <strong>LEE</strong> una obra seleccionada, <strong>ESCUCHA</strong> la canción original <em>«En mi cajita cabe otro lugar»</em> mediante código QR, <strong>COLECCIONA</strong> insignias ilustradas en índigo (<code>#1F1575</code>) y naranja (<code>#E56020</code>), y <strong>REGALA</strong> una dedicatoria sellada con el kanji <strong>幸</strong>.
+          </p>
+          <p>
+            A partir de la evidencia cuantitativa PREMO, la propuesta final incorpora dos optimizaciones concretas: <strong>(1) Cápsula de memoria fechada</strong> en el interior del libro para impulsar la dimensión de <em>Nostalgia</em> (7,00/10) hacia el recuerdo personal duradero, y <strong>(2) Ficha transparente de contenido garantizado más cunas internas protectoras</strong> para reducir la incertidumbre presupuestal y de conservación reflejada en el indicador leve de <em>Miedo</em> (2,00/10).
+          </p>
+        </div>
+
+        <!-- MARCO TEÓRICO Y DISCUSIÓN EN PESTAÑAS EDITORIALES -->
+        <div class="editorial-card reveal" style="margin-bottom:36px;">
+          <span class="eyebrow">Fundamentación Científica y Discusión</span>
+          <h3 class="section-subtitle" style="margin-bottom:16px;">Articulación teórica del estudio</h3>
+
+          <div class="theory-tabs" role="tablist" aria-label="Ejes del marco teórico">
+            <button type="button" class="filter-pill active" data-theory-tab="mk">1. Marketing emocional</button>
+            <button type="button" class="filter-pill" data-theory-tab="ux">2. UX emocional y niveles de diseño</button>
+            <button type="button" class="filter-pill" data-theory-tab="discusion">3. Discusión y limitaciones</button>
+          </div>
+
+          <div class="prose" data-theory-panel="mk">
+            <p>
+              El marketing emocional sostiene que la preferencia sostenible surge cuando las marcas dialogan con la identidad, la memoria afectiva y los estados internos del consumidor más allá de los atributos utilitarios (Gobé, 2001; Morrison &amp; Crane, 2007). Brakus et al. (2009) demostraron que la experiencia de marca integra dimensiones sensoriales, afectivas, intelectuales y conductuales que inciden directamente en la lealtad.
+            </p>
+            <p>
+              Investigaciones empíricas confirman que la intensidad del apego emocional predice el compromiso frente a sustitutos económicos (Thomson et al., 2005; Khuong &amp; Tram, 2015; Juárez-Varón et al., 2023; Kim &amp; Sullivan, 2019; Santos, 2024). En Tinta-Sachi, este principio se traduce en sustituir mercancía transaccional aislada por un ritual con significado propio, reflejado en el 8,50/10 de <em>Deseo</em> y 8,25/10 de <em>Orgullo</em>.
+            </p>
+          </div>
+
+          <div class="prose" data-theory-panel="ux" style="display:none;">
+            <p>
+              Desde la experiencia del usuario (UX emocional), Hassenzahl y Tractinsky (2006) y Hassenzahl (2010) distinguen entre cualidades pragmáticas y cualidades hedónicas de identificación y estimulación, siendo estas últimas decisivas para el recuerdo afectivo. De forma convergente, Norman (2004) estructura el diseño emocional en tres niveles que Tinta-Sachi activa secuencialmente: <strong>visceral</strong> (impacto cromático índigo-naranja y textura mate; Tractinsky et al., 2000; Silvennoinen et al., 2026), <strong>conductual</strong> (apertura fluida FEFCO 0427 y acceso directo al audio sin Frustración: 0,00/10) y <strong>reflexivo</strong> (simbolismo del kanji 幸 y dedicatoria personalizable).
+            </p>
+            <p>
+              Asimismo, el equilibrio entre estética, significado y emoción (Desmet &amp; Hekkert, 2007; Jordan, 2000; Demir et al., 2009; Büker et al., 2023; van Remmen et al., 2024) y el contraste narrativo desde el agobio cotidiano hacia el alivio (Fokkinga &amp; Desmet, 2012; Desmet, 2012) explican la alta intensidad alcanzada en <em>Sorpresa agradable</em> (8,75/10).
+            </p>
+          </div>
+
+          <div class="prose" data-theory-panel="discusion" style="display:none;">
+            <p>
+              Los resultados obtenidos concuerdan con hallazgos recientes sobre empaques multisensoriales (Xiao et al., 2025), donde la combinación cuidada de tacto, color y narrativa de apertura eleva el compromiso afectivo, siempre que se evite la sobrecarga sensorial. La coherencia transversal entre el Mapa de Empatía, el cómic de seis viñetas, el Customer Journey, la Matriz de Ansoff y el prototipo quedó respaldada por la ausencia total de Frustración, Asco o Indignación (0,00/10).
+            </p>
+            <p>
+              Como limitaciones metodológicas propias de un diseño exploratorio académico, se reconocen el tamaño muestral reducido no probabilístico (<code>n = 4</code> evaluadores por conveniencia), la concentración del registro en puntuaciones cuantitativas sin entrevistas abiertas transcritas y la evaluación sobre prototipo académico previo a producción en serie.
+            </p>
+          </div>
+        </div>
+
+        <!-- CONCLUSIONES Y RECOMENDACIONES -->
+        <div class="exec-grid reveal" style="margin-bottom:48px;">
+          <article class="editorial-card prose">
+            <span class="eyebrow">Síntesis Final</span>
+            <h3 class="section-subtitle">Conclusiones del estudio</h3>
+            <ul style="padding-left:18px;margin:0;display:grid;gap:10px;">
+              <li><strong>Comprensión emocional del consumidor:</strong> El verdadero competidor de Tinta-Sachi en el segmento universitario no es otra librería local, sino la fatiga mental y el ocio digital pasivo que carecen de abrigo sensorial.</li>
+              <li><strong>Validación mediante PREMO:</strong> El instrumento no verbal demostró una respuesta afectiva altamente positiva (8,20/10 frente a 0,43/10 negativo), validando el liderazgo de Sorpresa agradable (8,75), Deseo (8,50) e Inspiración (8,50) y detectando con sensibilidad la cautela presupuestal en Miedo leve (2,00).</li>
+              <li><strong>Valor estratégico del marketing emocional:</strong> Articular literatura, canción propia, coleccionables y regalo desplaza el producto hacia los niveles superiores de Maslow (3, 4 y 5) y sustenta la estrategia de Desarrollo de Producto en Ansoff.</li>
+              <li><strong>Coherencia integral de marca:</strong> Cuando empaque FEFCO 0427, paleta cromática, narrativa y sonido obedecen a una misma promesa emocional, la marca construye pertenencia y evita competir únicamente por precio.</li>
+            </ul>
+          </article>
+
+          <article class="editorial-card prose">
+            <span class="eyebrow">Hoja de Ruta Futura</span>
+            <h3 class="section-subtitle">Recomendaciones</h3>
+            <ul style="padding-left:18px;margin:0;display:grid;gap:10px;">
+              <li><strong>Ampliación muestral y captura mixta:</strong> Escalar la evaluación PREMO a una muestra de 25 a 35 estudiantes universitarios en Montería segmentados por género literario, integrando entrevistas breves grabadas post-apertura para enriquecer el análisis cualitativo.</li>
+              <li><strong>Arquitectura escalonada de precios:</strong> Estructurar dos niveles comerciales claros (<em>Edición Esencial</em> y <em>Edición Coleccionista</em>) con visualización previa de todas las piezas para eliminar la incertidumbre económica asociada al Miedo leve (2,00/10).</li>
+              <li><strong>Pruebas experimentales A/B del estímulo musical:</strong> Ejecutar un diseño comparativo A/B entre cajas con y sin canción original vía QR para aislar experimentalmente su efecto sobre la Fascinación, la Nostalgia y la disposición a pagar (Xiao et al., 2025).</li>
+              <li><strong>Continuidad comunitaria post-compra:</strong> Implementar votaciones abiertas entre lectores para seleccionar los próximos universos literarios y fortalecer la recompra por colección.</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- REFERENCIAS BIBLIOGRÁFICAS APA 7 -->
+        <details class="simulator-accordion reveal">
+          <summary class="simulator-summary">
+            <span>Referencias bibliográficas verificadas (26 fuentes académicas en norma APA 7.ª edición)</span>
+            <span style="font-size:0.82rem;color:var(--naranja);">Consultar bibliografía ↓</span>
+          </summary>
+          <div class="simulator-body">
+            <div class="refs-grid" id="apaReferencesGrid"></div>
+          </div>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- MINI REPRODUCTOR FLOTANTE LIQUID GLASS -->
+  <div class="floating-audio-dock liquid-glass" id="floatingAudioDock" role="region" aria-label="Reproductor flotante de canción oficial">
+    <button type="button" class="dock-toggle-btn" id="dockToggleBtn" aria-label="Pausar o reanudar canción">⏸</button>
+    <div style="font-size:0.78rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+      <strong style="color:#FFB48E;">♫</strong> «En mi cajita cabe otro lugar»
+    </div>
+    <button type="button" class="dock-close-btn" id="dockCloseBtn" aria-label="Ocultar reproductor flotante" title="Ocultar barra">✕</button>
+  </div>
+
+  <!-- BOTÓN REGRESAR AL INICIO -->
+  <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Volver al inicio de la página" title="Volver al inicio">↑</button>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+            <img src="./assets/Kanji_Sachi_Pincel.png" alt="Kanji Sachi" width="34" height="34" />
+            <span style="font-family:var(--font-display);font-size:1.45rem;color:#FFFFFF;">tinta-sachi</span>
+          </div>
+          <p style="margin:0 0 12px;font-size:0.9rem;max-width:44ch;line-height:1.62;">
+            «Las historias también se viven». Experiencia editorial multisensorial que integra literatura, música original, objetos coleccionables y conexión afectiva.
+          </p>
+          <small style="color:#FFB48E;font-weight:600;">Dimensiones: 26 × 20 × 9 cm · FEFCO 0427 · Índigo #1F1575 · Naranja #E56020</small>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Capítulos del Estudio</h4>
+          <ul class="footer-links">
+            <li><a href="#resumen">Resumen ejecutivo y propósito</a></li>
+            <li><a href="#producto">Empaque FEFCO 0427 y especificaciones</a></li>
+            <li><a href="#dimensiones">Lee · Escucha · Colecciona · Regala</a></li>
+            <li><a href="#consumidor">Buyer persona Juliana y estrategia</a></li>
+            <li><a href="#premo">Resultados e interpretación PREMO</a></li>
+            <li><a href="#informe">Propuesta de valor y conclusiones</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Créditos Académicos</h4>
+          <p style="margin:0 0 8px;font-size:0.86rem;line-height:1.6;">
+            <strong>Universidad de Córdoba</strong><br />
+            Facultad de Ingeniería · Programa de Ingeniería Industrial<br />
+            Asignatura: Mercados (406199) · Docente: Ing. Heidi Echeverri
+          </p>
+          <p style="margin:0;font-size:0.82rem;line-height:1.55;color:rgba(250,247,255,0.68);">
+            Equipo N.° 2: Albeyro Acosta · Samuel Furnieles · Donaldo Hoyos · Ebert López · Mateo Mercado · Isabela Noriega · Xiara Sarge · Isabela Tordecilla · María Villalobos · Montería, Córdoba (2026).
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="./scripts/tinta-sachi-data.js"></script>
+  <script defer src="./scripts/tinta-sachi-app.js"></script>
+</body>
+</html>
